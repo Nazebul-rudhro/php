@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px ;
+    margin: 0px 200px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+.studentadd:hover {
+    color: #fff;
+    padding-bottom: 5px;
+    border-bottom: 3px solid tomato;
+    transition: ease-in-out;
+}
+ .Studentlist:hover {
+    color: #fff;
+    padding-bottom: 5px;
+    border-bottom: 3px solid tomato;
+    transition: ease-in-out;
+ }
+.ownername:hover{
+    color: #fff;
+   padding-bottom: 4px;
+    border-bottom: 3px solid tomato;
+    transition: ease-in-out;
+    
+
+}
+
+
+
+
+.successfull_print{
+ text-align: center;
+ color: blue;
+}

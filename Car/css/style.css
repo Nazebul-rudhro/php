@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85), url("/img/banner.png"));
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.prant-lg{
+    justify-content: end;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+.prant-lg .log{
+    padding: 0px 15px;
+    text-decoration: none;
+}
+.prant-lg .sing{
+    text-decoration: none;
+    
+}
+.prant-lg a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.prant-lg a:hover::after{
+    width: 100%;
+}
